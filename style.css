@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(images/chmsc.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+	background-position: cover;
+	font-family: sans-serif;
+    display:flex; 
+    flex-direction:column; 
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-family: serif;
+    font-size: 56px !important;
+    color: #006699;
+}
+h1:hover{
+  text-shadow: 2px 2px black;
+}
+h2{
+  font-size: 18px;
+  font-family: serif;
+}
+p{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    top: 3%;
+    left: 7%;
+    color: #0F7DC2;
+
+
+}
+p:hover{
+  color: white;
+  text-shadow: 2px 2px #3F729B;
+
+}
+a{
+
+	margin: 0px 0 0 0;
+	color: white;
+
+}
+footer{
+    margin-top:auto; 
+    height:50px; 
+    background:black;
+
+}
+.navbar{
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 70px;
+
+}
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+
+#head img{
+    float: left;
+    width: 5%;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#head > h2 {
+                font-size: 19px;
+                color: #003366;
+                width: 50px;
+                margin-left: 8%;
+                margin-top: 2%;
+            }
+#head > h2:hover {
+                    color:grey;
+                }
+.color{
+  color: #fff !important;
+}
+.center{
+  text-align: center !important;
+}
+.container{
+  margin: 16px !important;
+}
